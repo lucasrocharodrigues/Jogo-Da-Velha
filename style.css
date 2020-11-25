@@ -1,0 +1,344 @@
+body{
+    background-color: deepskyblue;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: none;
+    font-family: 'Lato', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+input{
+    outline:none;
+}
+
+button{
+    outline:none;
+}
+
+.campo-direito{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    max-width: 25%;
+    justify-content: flex-end;
+}    
+
+.campo-meio{
+    width: 50%;
+    height: 100%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.campo-esquerdo{
+    width: 25%;
+    height: 100%;
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.campo-wrapper::placeholder{
+    color: deepskyblue;
+}
+
+.campo-wrapper{
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    width: 100%;    
+    height: 27px;
+    margin-bottom:20px ;
+    box-sizing: border-box;
+    padding: 10px;
+ }
+
+.botao-jogar{
+    background-color: rgb(0, 255, 0);    
+    color: white;
+    width: 260px;
+    border-radius: 10px;
+    border: none;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.botao-reiniciar{
+    color: deepskyblue;
+    width: 260px;
+    border-radius: 10px;
+    border: none;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.campo-historico-jogada{
+    background-color: white;
+    border-radius: 5px;
+    width: 380px;
+    height: 60px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.campo-placar{
+    background-color: white;
+    color: deepskyblue;
+    display: flex;
+    border-radius: 10px;
+    width: 540px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    height: 80px;
+}
+
+.campo-jogada{
+    display: flex;
+    color: grey;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    font-size: 1000%;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.text-historico-partida{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    height: 51px;
+    border-radius: 5px;
+    width: 120px;
+    min-width: 130px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+
+.titulos{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.box-quantidade-partidas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.text-quantidade-partidas{
+    color: white;
+}
+
+.box-selecionar-quantidade{
+    width: 40px;
+    height: 13px;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 2px;
+    border: 1px solid white;
+} 
+
+
+.contener-historico-partida{
+    display: flex;
+    height: 520px;
+    width: 270px;
+    flex-direction: column;
+}
+
+.campinho-historico{
+    display: flex;
+    color: grey;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    margin: 2px;
+    border-radius: 2px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+.box-jogadas{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-campinhos{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+
+.box-historico-partidas{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.titulo-cenario{
+    color:white;
+    margin-right: 15px;
+    display: flex;
+   align-items: center;
+}
+
+
+.campo-text-placar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.placares{
+    font-size: 40px;
+}
+
+.text-placar{
+    font-size: 20px;
+    margin:0;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.span-placar{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.span-vencedor{
+    color: rgb(16, 189, 16);
+    font-size: 20px;
+}
+
+.nome-historico-partida{
+    color:grey;
+}
+
+.box-span-historico-jogada{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-historico-jogada{
+    color: grey;
+}
+
+.local-historico-jogada{
+    color:deepskyblue;
+}
+
+
+.historico-jogada{
+    display: flex;
+    color: grey;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 65px;
+}
+
+.wrapper-botao{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 27px;
+    justify-content: center;
+    color: deepskyblue;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
+
+
+.wrapper-2{
+    width: 100%;
+    border:none;
+    height: 90%;
+}
+
+
+.botao-dentro-wrapper{
+    width: 70px;
+    background-color: deepskyblue;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 2px;
+}
+
+
+.wrapper-2::placeholder{
+    color: deepskyblue;
+}
+
+.ball{
+    background-color: white;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+
+.ball-wrapper{
+    background-color: white;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+
+.marcador-placar-1{
+    font-weight: 700;
+}
+
+.marcador-placar-2{
+    font-weight: 700;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Jogo da velha</title>
+</head>
+
+<body>
+    <div class="campo-esquerdo">
+        <form class="formulario">
+            <div class="campos-wrapper">
+                <input type="text" placeholder="Jogador 1" class="campo-wrapper">
+                <div class="wrapper-botao">
+                    <input type="text" placeholder="Jogador 2" class="wrapper-2">
+                    <div class="botao-dentro-wrapper">
+                        <div class="ball-wrapper">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="titulos">Tipo de Partida</h1>
+            <div class="box-quantidade-partidas">
+                <span class="text-quantidade-partidas">Melhor de 3</span>
+                <div class="box-selecionar-quantidade">
+                    <div class="ball">
+
+                    </div>
+                </div>
+                <span class="text-quantidade-partidas">Melhor de 5</span>
+            </div>
+        </form>
+        <button class="botao-jogar">Jogar</button>
+        <h2 class="titulos">Hitorico de Partida</h2>
+        <div class=contener-historico-partida>
+            <div class="box-historico-partidas">
+                <div class="text-historico-partida">
+                    <span class="span-vencedor">Vencedor</span>
+                    <span class="nome-historico-partida">Nome do Jogador</span>
+                </div>
+                <span class="titulo-cenario">Cenario</span>
+                <div class="box-campinhos">
+                    <span class="campinho-historico campinho-top"></span>
+                    <span class="campinho-historico campinho-top"></span>
+                    <span class="campinho-historico campinho-top"></span>
+                    <span class="campinho-historico campinho-mid"></span>
+                    <span class="campinho-historico campinho-mid"></span>
+                    <span class="campinho-historico campinho-mid"></span>
+                    <span class="campinho-historico campinho-bot"></span>
+                    <span class="campinho-historico campinho-bot"></span>
+                    <span class="campinho-historico campinho-bot"></span>
+                </div>
+            </div>
+            <div class="box-historico-partidas">
+                <div class="text-historico-partida">
+                    <span class="span-vencedor">Vencedor</span>
+                    <span class="nome-historico-partida">Nome do Jogador</span>
+                </div>
+                <span class="titulo-cenario">Cenario</span>
+                <div class="box-campinhos">
+                    <span class="campinho-historico campinho-top campinho-historico-1"></span>
+                    <span class="campinho-historico campinho-top campinho-historico-2"></span>
+                    <span class="campinho-historico campinho-top campinho-historico-3"></span>
+                    <span class="campinho-historico campinho-mid campinho-historico-4"></span>
+                    <span class="campinho-historico campinho-mid campinho-historico-5"></span>
+                    <span class="campinho-historico campinho-mid campinho-historico-6"></span>
+                    <span class="campinho-historico campinho-bot campinho-historico-7"></span>
+                    <span class="campinho-historico campinho-bot campinho-historico-8"></span>
+                    <span class="campinho-historico campinho-bot campinho-historico-9"></span>
+                </div>
+            </div>
+            <div class="box-historico-partidas">
+                <div class="text-historico-partida">
+                    <span class="span-vencedor">Vencedor</span>
+                    <span class="nome-historico-partida">Nome do Jogador</span>
+                </div>
+                <span class="titulo-cenario">Cenario</span>
+                <div class="box-campinhos">
+                    <span class="campinho-historico campinho-top"></span>
+                    <span class="campinho-historico campinho-top"></span>
+                    <span class="campinho-historico campinho-top"></span>
+                    <span class="campinho-historico campinho-mid"></span>
+                    <span class="campinho-historico campinho-mid"></span>
+                    <span class="campinho-historico campinho-mid"></span>
+                    <span class="campinho-historico campinho-bot"></span>
+                    <span class="campinho-historico campinho-bot"></span>
+                    <span class="campinho-historico campinho-bot"></span>
+                </div>
+            </div>
+            <div class="box-historico-partidas">
+                <div class="text-historico-partida">
+                    <span class="span-vencedor">Vencedor</span>
+                    <span class="nome-historico-partida">Nome do Jogador</span>
+                </div>
+                <span class="titulo-cenario">Cenario</span>
+                <div class="box-campinhos">
+                    <span class="campinho-historico campinho-top"></span>
+                    <span class="campinho-historico campinho-top"></span>
+                    <span class="campinho-historico campinho-top"></span>
+                    <span class="campinho-historico campinho-mid"></span>
+                    <span class="campinho-historico campinho-mid"></span>
+                    <span class="campinho-historico campinho-mid"></span>
+                    <span class="campinho-historico campinho-bot"></span>
+                    <span class="campinho-historico campinho-bot"></span>
+                    <span class="campinho-historico campinho-bot"></span>
+                </div>
+            </div>
+        </div>
+        <button class="botao-reiniciar">Reiniciar</button>
+    </div>
+    <div class="campo-meio">
+        <div class="campo-placar">
+            <div class="placares">
+                <span class="marcador-placar-1 placar">0</span>
+            </div>
+            <div class="campo-text-placar">
+                <h4 class="text-placar">PLACAR</h4>
+                <span class="span-placar">Nome do Jogador</span>
+            </div>
+            <div class="placares">
+                <span class="marcador-placar-2 placar">0</span>
+            </div>
+        </div>
+        <div class="box-jogadas">
+            <span class="campo-jogada campo-0"></span>
+            <span class="campo-jogada campo-1"></span>
+            <span class="campo-jogada campo-2"></span>
+            <span class="campo-jogada campo-3"></span>
+            <span class="campo-jogada campo-4"></span>
+            <span class="campo-jogada campo-5"></span>
+            <span class="campo-jogada campo-6"></span>
+            <span class="campo-jogada campo-7"></span>
+            <span class="campo-jogada campo-8"></span>
+        </div>
+    </div>
+    <div class="campo-direito">
+        <h5 class="titulos">Historico de Jogadas</h5>
+        <div class="campo-historico-jogada">
+            <span class="historico-jogada campo-historico-jogada-1"></span>
+            <div class="box-span-historico-jogada">
+                <span class="nome-historico-jogada">Nome do Jogador</span>
+                <span class="local-historico-jogada local-historico-jogada-1" >Primeiro Quadrado</span>
+            </div>
+        </div>
+        <div class="campo-historico-jogada">
+            <span class="historico-jogada campo-historico-jogada-2"></span>
+            <div class="box-span-historico-jogada">
+                <span class="nome-historico-jogada">Nome do Jogador</span>
+                <span class="local-historico-jogada local-historico-jogada-2">Segundo Quadrado</span>
+            </div>
+        </div>
+        <div class="campo-historico-jogada">
+            <span class="historico-jogada campo-historico-jogada-3"></span>
+            <div class="box-span-historico-jogada">
+                <span class="nome-historico-jogada">Nome do Jogador</span>
+                <span class="local-historico-jogada local-historico-jogada-3">Terceiro Quadrado</span>
+            </div>
+        </div>
+        <div class="campo-historico-jogada">
+            <span class="historico-jogada historico-jogada-4"></span>
+            <div class="box-span-historico-jogada">
+                <span class="nome-historico-jogada">Nome do Jogador</span>
+                <span class="local-historico-jogada local-historico-jogada-4">Quarto Quadrado</span>
+            </div>
+        </div>
+        <div class="campo-historico-jogada">
+            <span class="historico-jogada historico-jogada-5"></span>
+            <div class="box-span-historico-jogada">
+                <span class="nome-historico-jogada">Nome do Jogador</span>
+                <span class="local-historico-jogada local-historico-jogada-5">Quinto Quadrado</span>
+            </div>
+        </div>
+        <div class="campo-historico-jogada">
+            <span class="historico-jogada historico-jogada-6"></span>
+            <div class="box-span-historico-jogada">
+                <span class="nome-historico-jogada">Nome do Jogador</span>
+                <span class="local-historico-jogada local-historico-jogada-6">Sexto Quadrado</span>
+            </div>
+        </div>
+        <div class="campo-historico-jogada">
+            <span class="historico-jogada historico-jogada-7"></span>
+            <div class="box-span-historico-jogada">
+                <span class="nome-historico-jogada">Nome do Jogador</span>
+                <span class="local-historico-jogada local-historico-jogada-7">Setimo Quadrado</span>
+            </div>
+        </div>
+        <div class="campo-historico-jogada">
+            <span class="historico-jogada historico-jogada-8"></span>
+            <div class="box-span-historico-jogada">
+                <span class="nome-historico-jogada">Nome do Jogador</span>
+                <span class="local-historico-jogada local-historico-jogada-8">Oitavo Quadrado</span>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
